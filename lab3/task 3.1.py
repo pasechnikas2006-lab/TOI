@@ -1,5 +1,5 @@
-list1=input("enter your list: ").split()
-mlt=(input("enter multiplier(2 by default): "))
+list1=input("введите ваш список: ").split()
+mlt=(input("введите множитель(2 по умолчанию): "))
 if mlt=='': mlt=2
 elif not mlt.isalpha(): mlt=int(mlt)
 list2=[]
@@ -14,5 +14,6 @@ def mult(lst: list, mlt: int)-> list:
     return lst2
 
 result = map(lambda x:x*mlt , list2 )
-print(f"normal function: {mult(list2, mlt)}")
-print(f"Lambda function: {list(result)}")
+print(f"обычная функция: {mult(list2, mlt)}")
+print(f"лямбда функция: {list(result)}")
+
