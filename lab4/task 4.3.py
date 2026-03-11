@@ -14,4 +14,5 @@ def file_manage(txt: str, filename: str):
 #        "line4\n"
 #        "line5\n")
 
-file_manage("line4","test.txt")
+file_manage("txt","test.txt")
+
