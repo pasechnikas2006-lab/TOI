@@ -8,11 +8,12 @@ def file_manage(txt: str, filename: str):
             if index % 2 == 0:
                 print(f"{line}")
 
-# txt = ("line1\n"
-#        "line2\n"
-#        "line3\n"
-#        "line4\n"
-#        "line5\n")
+ txt = ("line1\n"
+        "line2\n"
+        "line3\n"
+        "line4\n"
+        "line5\n")
 
 file_manage("txt","test.txt")
+
 
